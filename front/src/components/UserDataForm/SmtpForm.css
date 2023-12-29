@@ -1,0 +1,42 @@
+/* SmtpForm.js */
+.smtp-form-container {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  .smtp-form-container form {
+    margin-top: 10px;
+  }
+
+  .title-container {
+    border-bottom: 1px solid #ddd;
+    margin-top: 0px;
+  }
+  
+  .title-container h4 {
+    margin: 10px;
+  }
+
+  .form-container {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .form-container p {
+    color: grey;
+    font-size: 12px;
+  }
+
+  .smtp-form-container button[type="submit"] {
+    background-color: rgb(4, 173, 4);
+    color: white;
+    border: none;
+  }

@@ -1,0 +1,43 @@
+/* UserDataForm.css */
+
+.tabs {
+    display: flex;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .tab:hover {
+    background-color: #ccc;
+  }
+  
+  .tab.active {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .tab span {
+    margin-left: 10px;
+  }
+  
+  .other-page-content {
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .other-page-content h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .other-page-content p {
+    margin-top: 0;
+  }

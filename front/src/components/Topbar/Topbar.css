@@ -1,0 +1,54 @@
+/* Topbar.css */
+.topbar {
+  width: 96.9%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: #023044;
+  color: white;
+  padding: 0 20px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #00eeff;
+}
+
+.user-menu {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  background-color: #02304487;
+  border: 1px solid #dddd;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.user-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.user-menu div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.user-menu div:hover {
+  background-color: #02304427;
+}
